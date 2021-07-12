@@ -1,0 +1,41 @@
+.homecontainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/freeimg_24761737freejpg850.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.descontainer {
+  width: 60%;
+  color: #000;
+}
+.namecontainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.namecontainer > h1 {
+  font-size: 38px;
+  display: flex;
+  flex-direction: column;
+}
+.descontainer > h2 {
+  color: #000;
+  font-size: 24px;
+}
+.name {
+  color: crimson;
+  font-size: 50px !important;
+}
+@media screen and (max-width: 690px) {
+  .descontainer {
+    width: 100%;
+  }
+  .namecontainer {
+    flex-direction: column;
+  }
+}
